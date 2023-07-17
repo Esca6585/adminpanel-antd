@@ -1,0 +1,45 @@
+.PhoneInput {
+    margin-top: 20px;
+    
+}
+
+.PhoneInputCountry {
+    display: flex;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid var(--gray-200, #E5E7EB);
+    background: var(--gray-50, #F9FAFB);
+    margin-right: 0px !important;
+}
+
+.PhoneInputInput {
+    display: flex;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    border-radius: 0px 8px 8px 0px;
+    border-top: 1px solid var(--gray-200, #E5E7EB);
+    border-right: 1px solid var(--gray-200, #E5E7EB);
+    border-bottom: 1px solid var(--gray-200, #E5E7EB);
+    background: var(--white, #FFF);
+}
+
+
+.PhoneInputInput:focus,
+.PhoneInputInput[data-focus-visible-added]:focus {
+    /* Add your focused input styles here */
+    border-color: #fff;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+.error {
+    border: 1px solid red;
+}
